@@ -20,7 +20,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" aria-label="Home">
           <Image
-            src="/Icon.jpg"
+            src="/mikelogLogo.jpg"
             alt="Logo"
             width={50}
             height={50}
