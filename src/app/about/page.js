@@ -61,7 +61,7 @@ export default function AboutPage() {
               Mike has worked on strategic projects at Shell Research Centre Netherlands, Petroleum Development Oman (PDO), and Mobil Producing Nigeria, holding senior positions such as Exploration Team Lead and Seismology Discipline Lead.
             </p>
             <p>
-              Academically, Mike holds a Bachelor&#39s in Geology (Ahmadu Bello University), a Master&#39s in Petroleum Geosciences (University of London), an MBA (University of Leicester), and a PhD in Leadership & Organizational Change (Walden University).
+              Academically, Mike holds a Bachelor&#39;s in Geology (Ahmadu Bello University), a Master&#39;s in Petroleum Geosciences (University of London), an MBA (University of Leicester), and a PhD in Leadership & Organizational Change (Walden University).
             </p>
             <p>
               He is certified in Lean Six Sigma (Black Belt), a registered Geoscientist (COMEG Nigeria), and a member of NAPE, SPE, NMGS, and AAPG.
