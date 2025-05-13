@@ -32,20 +32,6 @@ export default function Home() {
     // Add more items...
   ];
 
-  const servicesList = [
-    "Acquisition and Divestments",
-    "Regional Studies / Prospectivity Review",
-    "Pore Pressure Prediction and Monitoring",
-    "Exploration and Subsurface Evaluation",
-    "Integrated Asset Evaluation",
-    "Field Development Studies",
-    "Well and Field Optimization",
-    "Project Management",
-    "Operation Support",
-    "Energy Consultancy",
-    "Application Support",
-    "Manpower Management"
-  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-300 to-white">
@@ -62,39 +48,30 @@ export default function Home() {
       {/* Main Content */} 
       {/* Section 1: Who We Are */}
       <div className="w-full bg-white/80 backdrop-blur-sm p-8 mt-8">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-          <div className="text-center md:text-left w-full max-w-screen-lg">
-            <h1 className="text-4xl text-center font-bold mb-4">Who We Are</h1>
-            <p className="text-lg mb-6">
-              MikelOg Energy Limited is an Integrated Subsurface Consultancy Company that is led by a team of seasoned professionals with hands-on experience in the successful delivery of oil and gas projects in West Africa, Middle East, Europe, and Americas.
-            </p>
-            <div className="flex justify-center mt-6">
-              <Link
-                href="/about"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
-                aria-label="View About Us"
-              >
-                <span>About Us</span>
-              </Link>
+        <div className="flex flex-col md:flex-row items-center justify-center mb-30 gap-10">
+          <h1 className="text-6xl text-center font-bold p-8 mb-4 [text-shadow:1px_1px_3px_black]">Welcome to Mikelog Energy Limited</h1>
+          <div className="relative w-70 h-50 mb-4">
+              <Image
+                src="/mikelogLogo.jpg"
+                alt="logo"
+                fill
+                className=" object-cover  border-4 border-white shadow-lg"
+              />
             </div>
+        </div>  
+        <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="relative w-150 h-100 mb-4">
+            <Image
+              src="/home.jpg"
+              alt="experience"
+              fill
+              className=" object-cover  border-4 border-white shadow-lg"
+            />
           </div>
-        </div>
-      </div>
-
-      {/* Section 2: What We Do */}
-      <div className="w-full bg-white/80 backdrop-blur-sm p-8 mt-16">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <div className="text-center md:text-left w-full max-w-screen-lg">
-            <h1 className="text-4xl text-center font-bold mb-4">What We Do</h1>
-            <p className="text-lg mb-6">Our area of expertise covers</p>
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-              {servicesList.map((service, index) => (
-                <li key={index} className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
-                  <span className="text-gray-700">{service}</span>
-                </li>
-              ))}
-            </ul>
+            <p className="text-5xl mb-6">
+            We provide innovative solutions for Oil and Gas Development, utilizing cutting-edge technologies to maximize efficiency and minimize environmental impact.
+            </p>
             <div className="flex justify-center mt-6">
               <Link
                 href="/about"
@@ -118,11 +95,11 @@ export default function Home() {
             </p>
             <div className="flex justify-center mt-6">
               <Link
-                href="/products"
+                href="/services"
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
                 aria-label="Completed Projects"
               >
-                <span>Recently Completed Projects</span>
+                <span>List of services</span>
               </Link>
             </div>
           </div>
