@@ -5,7 +5,12 @@ export default function Contact() {
 	return (
 		<div className="gap-8 mb-4">
 			<div className="text-center gap-8 mb-20">
-				<h2 className="text-6xl font-bold mb-4">Contact Details</h2>
+				<h2
+					style={{ fontFamily: "Helvetica, Arial, sans-serif" }}
+					className="text-6xl font-bold mb-4"
+				>
+					Contact Details
+				</h2>
 			</div>
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 				<div className="flex flex-col items-center bg-gray-50 p-6 rounded-lg shadow-md">

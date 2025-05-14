@@ -59,6 +59,23 @@ export default function Header() {
 						Home
 					</Link>
 					<Link
+						href="/about"
+						className={`text-white hover:text-blue-600 border-b-2 ${
+							pathname === "/about" ? "border-blue-600" : "border-transparent"
+						} hover:border-blue-600`}
+					>
+						About Us
+					</Link>
+
+					<Link
+						href="/services"
+						className={`text-white hover:text-blue-600 border-b-2 ${
+							pathname === "/about" ? "border-blue-600" : "border-transparent"
+						} hover:border-blue-600`}
+					>
+						What We Do
+					</Link>
+					<Link
 						href="/products"
 						className={`text-white hover:text-blue-600 border-b-2 ${
 							pathname === "/projects"
@@ -68,22 +85,7 @@ export default function Header() {
 					>
 						Recent Projects
 					</Link>
-					<Link
-						href="/about"
-						className={`text-white hover:text-blue-600 border-b-2 ${
-							pathname === "/about" ? "border-blue-600" : "border-transparent"
-						} hover:border-blue-600`}
-					>
-						About Us
-					</Link>
-					<Link
-						href="/services"
-						className={`text-white hover:text-blue-600 border-b-2 ${
-							pathname === "/about" ? "border-blue-600" : "border-transparent"
-						} hover:border-blue-600`}
-					>
-						What We Do
-					</Link>
+
 					<Link
 						href="/contact"
 						className={`text-white hover:text-blue-600 border-b-2 ${
